@@ -2,6 +2,167 @@ import Link from 'next/link';
 
 const publications = [
 	{
+		year: '2025',
+		title: 'Innovative Therapy with Stem Cell-Derived Extracellular Vesicles on Cardiac Hypertrophy in an Animal Model of Atherosclerosis; Elucidation of the Molecular Mechanisms Involved in the Repair Process.',
+		journal: 'Biomolecules, 2025; 15(10)',
+		doi: 'https://www.mdpi.com/2218-273X/15/10/1424',
+		authors: 'Vîlcu A, Comarița IK, Constantin A, Alexandru N, Nemecz M, Safciuc F, Bojin F, Paunescu V, Georgescu A.'
+	},
+	{
+		year: '2025',
+		title: 'Aristolochic Acid I Adsorption onto Activated Carbon: Kinetics, Equilibrium, and Thermodynamic Studies.',
+		journal: 'Processes, 2025; 13(11)',
+		doi: 'https://www.mdpi.com/2227-9717/13/11/3397',
+		authors: 'Pricop MA, Negrea A, Ciopec M, Pascu IB, Oprean C, Lukinich-Gruia AT, Cristea IM, Ivan A, Paunescu V, Tatu CA.'
+	},
+	{
+		year: '2025',
+		title: 'Cellular Metabolic Responses to Copper Nanoparticles: Comparison Between Normal and Breast Cancer Cells.',
+		journal: 'International Journal of Molecular Sciences, 2025; 26(21)',
+		doi: 'https://www.mdpi.com/1422-0067/26/21/10716',
+		authors: 'Ivan A, Pricop MA, Lukinich-Gruia AT, Cristea IM, Negrea A, Pascu IB, Calma CL, Paunescu A, Paunescu V, Tatu CA.'
+	},
+	{
+		year: '2025',
+		title: 'Breaking Barriers: The Detrimental Effects of Combined Ragweed and House Dust Mite Allergen Extract Exposure on the Bronchial Epithelium.',
+		journal: 'Applied Sciences, 2025; 15: 4113',
+		doi: 'https://www.mdpi.com/2076-3417/15/8/4113',
+		authors: 'Zimbru RI, Grijincu M, Tănasie G, Zimbru EL, Bojin MF, Buzan MR, Tamas TP, Cotarcă MD, Harich OO, Pătrașcu R, Haidar L, Ciurariu E, Marin KC, Păunescu V, Panaitescu C.'
+	},
+	{
+		year: '2025',
+		title: 'Anti-Her2 CAR-NK92 Cells and Their Exosomes: Generation, Characterization, and selective Cytotoxicity against Her2-Positive tumor Cells.',
+		journal: 'International Journal of Molecular Sciences, 2025; 26(15): 7648',
+		doi: 'https://www.mdpi.com/1422-0067/26/15/7648',
+		authors: 'Tirziu A, Bojin MF, Gavriliuc OI, Buzan RM, Zbircea LE, Grijincu M, Paunescu V.'
+	},
+	{
+		year: '2025',
+		title: 'In Vitro Antioxidant Effects of Coenzyme Q10 on Cellular Metabolism in Aged Mesenchymal Stem Cells.',
+		journal: 'Applied Sciences Basel, 2025; 15(5): 2783',
+		doi: 'https://www.mdpi.com/2076-3417/15/5/2783',
+		authors: 'Ivan A, Lukinich-Gruia AT, Cristea IM, Pricop MA, Calma CL, Paunescu A, Tatu CA, Galuscan A, Paunescu V.'
+	},
+	{
+		year: '2025',
+		title: 'Exploring CAR-PBMCs: A novel strategy against EGFR-positive tumor cells.',
+		journal: 'Biomedicines, 2025; 13: 264',
+		doi: 'https://www.mdpi.com/2227-9059/13/2/264',
+		authors: 'Tirziu A, Gavriliuc O-I, Bojin M-F, Paunescu V.'
+	},
+	{
+		year: '2024',
+		title: 'Rosuvastatin attenuates vascular dysfunction induced by high-fructose diets and allergic asthma in rats.',
+		journal: 'Nutrients, 2024; 16(23): 4104',
+		doi: 'https://www.mdpi.com/2072-6643/16/23/4104',
+		authors: 'Zimbru EL, Zimbru RI, Ordodi VL, Bojin FM, Crisnic D, andor M, Mirica SN, Hutu I, Tanasie G, Haidar L, Nistor D, Velcean L, Paunescu V, Panaitescu C.'
+	},
+	{
+		year: '2024',
+		title: 'Quercetin and Mesenchymal Stem Cell Metabolism: A Comparative Analysis of Young and Senescent States.',
+		journal: 'Molecules, 2024; 29(23): 5755',
+		doi: 'https://www.mdpi.com/1420-3049/29/23/5755',
+		authors: 'Ivan A, Lukinich-Gruia AT, Cristea IM, Pricop MA, Calma CL, Simina AG, Tatu CA, Galuscan A, Paunescu V.'
+	},
+	{
+		year: '2024',
+		title: 'Aristolochia clematitis L. Ethanolic Extracts: In Vitro Evaluation of Antioxidant Activity and Cytotoxicity on Caco-2 Cell Line.',
+		journal: 'Plants-Basel, 2024; 13(21): 2987',
+		doi: 'https://www.mdpi.com/2223-7747/13/21/2987',
+		authors: 'Pricop MA, Lukinich-Gruia AT, Cristea IM, Paunescu V, Tatu CA.'
+	},
+	{
+		year: '2024',
+		title: 'Evaluation of Antimicrobial, Antitumor, Antioxidant Activities, and Molecular Docking Studies of Some Co(II), Cu(II), Mn(II), Ni(II), Pd(II), and Pt(II) Complexes With a Schiff Base Derived From 2-Chloro-5-(trifluoromethyl)aniline.',
+		journal: 'Applied Organometallic Chemistry, 2024; Corpus ID: 273645866',
+		doi: 'https://onlinelibrary.wiley.com/doi/10.1002/aoc.7829',
+		authors: 'Pahontu E, Pirvu CED, Visan DC, Socea LI, Apostol TV, Oprean C, Paunescu V, Ungurianu A, Margina DM, Codita I, Dumitrescu S, Draganescu D, Lupascu G.'
+	},
+	{
+		year: '2024',
+		title: 'Mitochondrial Dysfunction in Aristolochic Acid I-Induced Kidney Diseases: What We Know and What We Do Not Know.',
+		journal: 'Applied Sciences-Basel, 2024; 14(17): 7961',
+		doi: 'https://www.mdpi.com/2076-3417/14/17/7961',
+		authors: 'Lukinich_Gruia AT, Calma CL, Szekely FAE, Cristea IM, Pricop MA, Simina AG, Ordodi VL, Pavlovic NM, Tatu CA, Paunescu V.'
+	},
+	{
+		year: '2024',
+		title: 'Experimental Device for the "Green" Synthesis of Unbranched Aliphatic Esters C4-C8 Using an Audio Frequency Electric Field.',
+		journal: 'Processes, 2024; 12(9): 1891',
+		doi: 'https://www.mdpi.com/2227-9717/12/9/1891',
+		authors: 'Udrea IA, Lukinich-Gruia AT, Paul C, Pricop MA, Dan MR, Paunescu V, Baloi A, Tatu CA, Vaszilcsin N, Ordodi V.'
+	},
+	{
+		year: '2024',
+		title: 'The Impact of High-Fructose Diet and Co-Sensitization to House Dust Mites and Ragweed Pollen on the Modulation of Airway Reactivity and Serum Biomarkers in Rats.',
+		journal: 'International Journal of Molecular Sciences, 2024; 25(16): 8868',
+		doi: 'https://www.mdpi.com/1422-0067/25/16/8868',
+		authors: 'Zimbru RI, Zimbru EL, Ordodi VL, Bojin FM, Crisnic D, Grijincu M, Mirica SN, Tanasie G, Georgescu M, Hutu I, Haidar L, Paunescu V, Panaitescu C.'
+	},
+	{
+		year: '2024',
+		title: 'Prenatal Factors in the Development of Allergic Diseases.',
+		journal: 'International Journal of Molecular Sciences, 2024; 25(12): 6359',
+		doi: 'https://www.mdpi.com/1422-0067/25/12/6359',
+		authors: 'Grijincu M, Buzan MR, Zbircea LE, Paunescu V, Panaitescu C.'
+	},
+	{
+		year: '2024',
+		title: 'Non-Specific Lipid Transfer Protein Amb a 6 Is a Source-Specific Important Allergenic Molecule in Ragweed Pollen.',
+		journal: 'International Journal of Molecular Sciences, 2024; 25(12): 6513',
+		doi: 'https://www.mdpi.com/1422-0067/25/12/6513',
+		authors: 'Grijincu M, Tanasie G, Zbircea LE, Buzan MR, Tamas TP, Cotarca MD, Hutu I, Babaev E, Stolz F, Dorofeeva Y, Valenta R, Paunescu V, Panaitescu C, Chen KW.'
+	},
+	{
+		year: '2024',
+		title: 'Cross-Reactivity of Ragweed Pollen Calcium-Binding Proteins and IgE Sensitization in a Ragweed-Allergic Population from Western Romania.',
+		journal: 'Advances in Respiratory Medicine, 2024; 92(3): 218-229',
+		doi: 'https://www.mdpi.com/2543-6031/92/3/22',
+		authors: 'Zbircea LE, Buzan MR, Grijincu M, Tamas TP, Vulpe CB, Hutu I, Paunescu V, Panaitescu C, Chen KW.'
+	},
+	{
+		year: '2024',
+		title: 'Heterogenous Induction of Blocking Antibodies against Ragweed Allergen Molecules by Allergen Extract-Based Immunotherapy Vaccines.',
+		journal: 'Vaccines, 2024; 12(6): 635',
+		doi: 'https://www.mdpi.com/2076-393X/12/6/635',
+		authors: 'Zbircea LE, Buzan MR, Grijincu M, Cotarca MD, Tamas TP, Haidar L, Tanasie G, Hutu I, Babaev E, Stolz F, Valenta R, Paunescu V, Panaitescu C, Chen KW.'
+	},
+	{
+		year: '2024',
+		title: 'Insect Cell-Expressed Major Ragweed Allergen Amb a 1.01 Exhibits Similar Allergenic Properties to Its Natural Counterpart from Common Ragweed Pollen.',
+		journal: 'International Journal of Molecular Sciences, 2024; 25(10): 5175',
+		doi: 'https://www.mdpi.com/1422-0067/25/10/5175',
+		authors: 'Buzan MR, Grijincu M, Zbircea LE, Haidar L, Tamas TP, Cotarca MD, Tanasie G, Weber M, Babaev E, Stolz F, Valenta R, Paunescu V, Panaitescu C, Chen KW.'
+	},
+	{
+		year: '2024',
+		title: 'Hydrogel extrusion speed measurement for the optimization of bioprinting parameters.',
+		journal: 'Gels, 2024; 10(2): 103',
+		doi: 'https://www.mdpi.com/2310-2861/10/2/103',
+		authors: 'Arjoca S, Bojin F, Neagu M, Paunescu A, Neagu A, Paunescu V.'
+	},
+	{
+		year: '2023',
+		title: 'Stem cells derived from exfoliated deciduous teeth functional assessment: Exploring the changes of free fatty acids composition during cultivation.',
+		journal: 'International Journal of Molecular Sciences, 2023; 24(24): 17249',
+		doi: 'https://www.mdpi.com/1422-0067/24/24/17249',
+		authors: 'Ivan A, Cristea MI, telea A, Oprean C, Galuscan A, Tatu C, Paunescu V.'
+	},
+	{
+		year: '2023',
+		title: 'Inhibitory effects of lidocaine on colon carcinoma progression in a rat model: a pilot study.',
+		journal: 'Br J Anaesth. 2023; 131(5): E163-E165',
+		doi: 'https://pubmed.ncbi.nlm.nih.gov/37709556/',
+		authors: 'Habago SD, Ordodi V, Bojin F, Vesa SC, Moldovan V, Paunescu V, Ionescu D.'
+	},
+	{
+		year: '2023',
+		title: 'In Vitro Study of the Multimodal Effect of Na+/K+ ATPase Blocker Ouabain on the Tumor Microenvironment and Malignant Cells.',
+		journal: 'Biomedicines, 2023; 11: 2205',
+		doi: 'https://pubmed.ncbi.nlm.nih.gov/37626702/',
+		authors: 'Harich OO, Gavriliuc OI, Ordodi VL, Tirziu A, Paunescu V, Panaitescu C, Bojin MF.'
+	},
+	{
 		year: '2023',
 		title: 'Design of a Synthetic Long Peptide Vaccine Targeting HPV-16 and-18 Using Immunoinformatic Methods.',
 		journal: 'Pharmaceutics. 2023, 15, 7',

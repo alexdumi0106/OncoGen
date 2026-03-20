@@ -17,7 +17,11 @@ const projectCardImages = {
     biomarkeri: '/images/imagini-proiecte/proiect-biomarkeri.png',
     inspired: '/images/imagini-proiecte/proiect-inspired.jpg',
     'bio-amr': '/images/imagini-proiecte/proiect-bio-amr.jpg',
-    mountadapt: '/images/imagini-proiecte/proiect-mountadapt.png'
+    mountadapt: '/images/imagini-proiecte/proiect-mountadapt.png',
+    consens: '/images/imagini-proiecte/proiect-consens.jpg',
+    reborne: '/images/imagini-proiecte/proiect-reborne.png',
+    reakt: '/images/imagini-proiecte/proiect-reakt.png',
+    prevalerg: '/images/imagini-proiecte/proiect-prevalerg.jpg'
 };
 
 export default function ProiectePage() {

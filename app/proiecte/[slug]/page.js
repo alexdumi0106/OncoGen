@@ -22,8 +22,8 @@ export default function ProjectDetail({ params }) {
         );
     }
 
-    const { title, shortTitle, description, category, duration, budget, coordinator, coordinatorLabel, call, callLabel, overview, role, objectives, results, keywords, externalLinks, relatedProjects } = project;
-    const displayTitle = ['rosecan', 'nanocel', 'mountadapt', 'car-nk', 'adipogeneza', 'delimit', 'healthy-pregnancy', 'fibroblastele', 'decode', 'biovea', 'bioprintare', 'biomarkeri', 'inspired', 'bio-amr'].includes(project.slug) ? shortTitle : title;
+    const { title, shortTitle, description, category, duration, budget, coordinator, coordinatorLabel, call, callLabel, financing, financingLabel, overview, role, objectives, results, keywords, externalLinks, relatedProjects } = project;
+    const displayTitle = ['rosecan', 'nanocel', 'mountadapt', 'car-nk', 'adipogeneza', 'delimit', 'healthy-pregnancy', 'fibroblastele', 'decode', 'biovea', 'bioprintare', 'consens', 'reborne', 'reakt', 'prevalerg', 'biomarkeri', 'inspired', 'bio-amr'].includes(project.slug) ? shortTitle : title;
     const showHeroDescription = project.slug !== 'nanocel';
 
     const redesignedSlugs = new Set(projects.projects.map((item) => item.slug));
@@ -54,12 +54,6 @@ export default function ProjectDetail({ params }) {
                                     <p>{duration}</p>
                                 </div>
                             )}
-                            {budget && (
-                                <div className="mountadapt-fact-card">
-                                    <h3>Buget</h3>
-                                    <p>{budget}</p>
-                                </div>
-                            )}
                             {coordinator && (
                                 <div className="mountadapt-fact-card">
                                     <h3>Coordonator</h3>
@@ -68,8 +62,14 @@ export default function ProjectDetail({ params }) {
                             )}
                             {call && (
                                 <div className="mountadapt-fact-card">
-                                    <h3>Apel</h3>
+                                    <h3>{callLabel || 'Apel'}</h3>
                                     <p>{call}</p>
+                                </div>
+                            )}
+                            {financing && (
+                                <div className="mountadapt-fact-card">
+                                    <h3>{financingLabel || 'Finantare'}</h3>
+                                    <p>{financing}</p>
                                 </div>
                             )}
                         </div>
@@ -202,18 +202,12 @@ export default function ProjectDetail({ params }) {
             </section>
 
             <section className="container">
-                {(duration || budget || coordinator || call) && (
+                {(duration || coordinator || call) && (
                     <div className="project-meta-info">
                         {duration && (
                             <div className="meta-item">
                                 <strong>DURATĂ</strong>
                                 <span>{duration}</span>
-                            </div>
-                        )}
-                        {budget && (
-                            <div className="meta-item">
-                                <strong>BUGET</strong>
-                                <span>{budget}</span>
                             </div>
                         )}
                         {coordinator && (
@@ -224,7 +218,7 @@ export default function ProjectDetail({ params }) {
                         )}
                         {call && (
                             <div className="meta-item">
-                                <strong>APEL</strong>
+                                <strong>{(callLabel || 'Apel').toUpperCase()}</strong>
                                 <span>{call}</span>
                             </div>
                         )}

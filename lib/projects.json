@@ -40,8 +40,10 @@
             "duration": "2016-2020",
             "coordinator": "OncoGen – Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara",
             "coordinatorLabel": "Partener",
-            "call": "Contract de finanțare nr. P_37_786/01.09.2016",
-            "callLabel": "Contract de finanțare",
+            "call": "Programul Operațional Competitivitate 2014 – 2020",
+            "callLabel": "Apel",
+            "financing": "Contract de finanțare nr.32/01.09.2016",
+            "financingLabel": "Contract",
             "overview": "CAR-NK este primul proiect românesc care avansează ingineria genetică a celulelor sistemului imun pentru tratamentul cancerului, prin dezvoltarea terapiei bazate pe celule CAR-NK. Proiectul dezvoltă și validează imunoterapii personalizate bazate pe celule Natural Killer modificate genetic cu receptori de antigen chimeric (CAR), capabile să recunoască ținte specifice de pe celulele maligne. Proiectul consolidează în România infrastructura și expertiza pentru cercetare avansată în onco-imunologie. Echipa OncoGen coordonează dezvoltarea fluxurilor de inginerie celulară, transducție virală și validare funcțională pentru celule CAR-NK, cu focus pe transferul rezultatelor către aplicații terapeutice.",
             "objectives": [
                 "Dezvoltarea activității de cercetare și inovare în onco-imunologie folosind expertiză locală și internațională",
@@ -161,6 +163,8 @@
             "coordinator": "Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara – OncoGen",
             "call": "100PED/03.01.2017",
             "callLabel": "Contract de finanțare",
+            "financing": "PN-III-P2-2.1-PED-2016-1422",
+            "financingLabel": "Apel",
             "overview": "DeLIMIT urmărește realizarea de constructe tisulare tridimensionale care reproduc structura și funcția micromediului tumoral, utilizând biotipărirea 3D și modele multicelulare pentru aplicații în cercetarea oncologică.OncoGen a coordonat implementarea proiectului împreună cu partenerul UMF “Victor Babeș” Timișoara, de la dezvoltarea modelelor in vitro până la validarea in vivo și simularea computațională.",
             "objectives": [
                 "Generarea de sferoizi tumorali de cancer mamar și colon și modele multicelulare bioprintate",
@@ -341,6 +345,8 @@
             "coordinatorLabel": "Coordonator consorțiu",
             "call": "83PPCCDI/2018",
             "callLabel": "Contract de finanțare",
+            "financing": "PN-III-P1-1.2-PCCDI-2017-0527",
+            "financingLabel": "Apel",
             "overview": "Proiectul BIOVEA a urmărit dezvoltarea și validarea unor aplicații diagnostice și terapeutice bazate pe vezicule extracelulare circulante, pentru boala aterosclerotică coronariană.",
             "objectives": [
                 "Identificarea veziculelor extracelulare circulante ca biomarkeri pentru boala aterosclerotică",
@@ -370,34 +376,123 @@
         },
         {
             "slug": "bioprintare",
-            "title": "Dezvoltarea și validarea experimentală a software-ului pentru bioimprimare 3D de modele tisulare tumorale",
-            "shortTitle": "BIOPRINTARE",
-            "category": "Postdoc – Biofabrication",
-            "duration": "2020 – 2022",
-            "budget": "45.300 EUR",
-            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” Timișoara",
-            "call": "1POSTDOC/1310/31.01.2020",
+            "title": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care",
+            "shortTitle": "CROSSCARE",
+            "category": "Cross-border cooperation",
+            "duration": "2024-2026",
+            "call": "RORS00040",
             "callLabel": "Nr. proiect",
-            "overview": "Proiectul dezvoltă pachete software Python pentru generarea automată de G-code și optimizarea bioimprimării 3D a modelelor tumorale toroidale și triplu-stratificate.",
-            "objectives": [
-                "Adaptarea codurilor G-code de la Cellink Inkredible la Cellink Bio X",
-                "Dezvoltarea programelor Python pentru geometrii flexibile toroidale și triplu-stratificate",
-                "Optimizarea procesului de biotipărire 3D pe Bio X",
-                "Optimizarea programelor open-source pentru utilizare în biotipărire",
-                "Biotipărirea și caracterizarea modelelor tumorale"
-            ],
-            "results": [
-                "Pachete software pentru generare G-code și tipărire reproductibilă a structurilor",
-                "Validare dimensională și morfologică a constructelor toroidale și triplu-stratificate",
-                "Metodologie pentru tipărire pe plăci multi-well și monitorizare evoluție in vitro"
-            ],
+            "overview": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care (CROSSCARE).",
+            "objectives": [],
+            "results": [],
             "keywords": [
-                "Bioprintare 3D",
-                "Inginerie Tisulară",
-                "Modele Tumorale",
-                "Python",
-                "G-code"
+                "CROSSCARE",
+                "Personalized diagnostics",
+                "Cancer clinical management",
+                "Cross-border cooperation",
+                "Long-term care"
             ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "consens",
+            "title": "Adaptarea tehnologiei celulelor stem la conservarea speciilor în pericol de dispariție",
+            "shortTitle": "CONSENS",
+            "category": "PNII - Parteneriate",
+            "duration": "2012-2016",
+            "financing": "PNII(Planul Național de Cercetare II)",
+            "financingLabel": "Apel",
+            "call": "Contract de finanțare nr.120/2012",
+            "callLabel": "Contract",
+            "overview": "Adaptarea tehnologiei celulelor stem la conservarea speciilor în pericol de dispariție (CONSENS), PNII - Parteneriate, Proiect nr. 120/2012 (2012-2016).",
+            "objectives": [],
+            "results": [],
+            "keywords": [
+                "CONSENS",
+                "Tehnologia celulelor stem",
+                "Conservarea speciilor",
+                "PNII - Parteneriate",
+                "2012-2016"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "reborne",
+            "title": "Regenerating Bone defects using New biomedical Engineering approaches",
+            "shortTitle": "REBORNE",
+            "category": "FP7",
+            "duration": "2010-2014",
+            "call": "Contract nr. 241879",
+            "callLabel": "Contract",
+            "overview": "Regenerating Bone defects using New biomedical Engineering approaches (REBORNE), program FP7, contract nr. 241879 (2010-2014).",
+            "objectives": [],
+            "results": [],
+            "keywords": [
+                "REBORNE",
+                "Bone regeneration",
+                "Biomedical engineering",
+                "FP7",
+                "2010-2014"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "reakt",
+            "title": "RBC-engager for NK and T cell activation in cancer immunotherapy",
+            "shortTitle": "REAKT",
+            "category": "PNRR",
+            "duration": "2023-2026",
+            "financing": "PNRR/2022/C9/MCID/I8",
+            "financingLabel": "Apel",
+            "call": "Contract de finanțare 760103/23.05.2023",
+            "callLabel": "Contract",
+            "overview": "RBC-engager for NK and T cell activation in cancer immunotherapy (REAKT), PNRR/2022/C9/MCID/I8, contract de finanțare 760103/23.05.2023, cod proiect CF 227/29.11.2022 (2023-2026).",
+            "objectives": [],
+            "results": [],
+            "keywords": [
+                "REAKT",
+                "Cancer immunotherapy",
+                "NK cells",
+                "T cells",
+                "PNRR"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "prevalerg",
+            "title": "Optimizarea metodelor de prevenţie pentru eficientizarea managementului pacientului alergic",
+            "shortTitle": "PREVALERG",
+            "category": "Alergologie și imunologie",
+            "duration": "2007 – 2010",
+            "call": "program PN II – Parteneriate",
+            "callLabel": "Apel",
+            "financing": "Contract de finanțare nr. 41-011/2007 ",
+            "financingLabel": "Contract",
+            "overview": "Proiectul PREVALERG a vizat optimizarea metodelor de prevenție pentru eficientizarea managementului pacientului alergic, prin identificarea factorilor de risc și dezvoltarea strategiilor personalizate de prevenție și tratament.",
+            "objectives": [
+                "Identificarea factorilor de risc pentru alergii",
+                "Dezvoltarea strategiilor personalizate de prevenție",
+                "Eficientizarea managementului pacientului alergic"
+            ], 
+            "results": [
+                "Identificarea factorilor de risc pentru alergii",
+                "Dezvoltarea strategiilor personalizate de prevenție",
+                "Eficientizarea managementului pacientului alergic"
+            ],
+
+            "keywords": [
+                "Alergii",
+                "Prevenție",
+                "Managementul pacientului",
+                "Factori de risc",
+                "Personalizare"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-PREVALERG.pdf"
+                }
+            ],  
             "relatedProjects": []
         },
         {
@@ -445,8 +540,10 @@
             "duration": "09.09.2016 – 08.12.2020",
             "coordinator": "OncoGen – Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara",
             "coordinatorLabel": "Partener",
-            "call": "Contract 92 din data de 09.09.2016",
+            "call": "Contract P_37_747/09.09.2016",
             "callLabel": "Contract de finanțare",
+            "financing": "POC 2014-2020 – Axa prioritară 1 – Acțiunea 1.1.4",
+            "financingLabel": "Apel",
             "overview": "INSPIRED dezvoltă alergene recombinate pentru diagnostic molecular precis și personalizarea imunoterapiei la pacienții alergici la ambrozie, inclusiv evaluarea vaccinurilor comerciale existente.",
             "objectives": [
                 "Dezvoltarea unui kit de diagnostic bazat pe alergene recombinate pentru alergia la ambrozie",
