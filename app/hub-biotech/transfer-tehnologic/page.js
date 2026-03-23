@@ -1,0 +1,64 @@
+import Link from 'next/link';
+
+export default function TransferTehnologicPage() {
+    return (
+        <>
+            <div className="breadcrumbs">
+                <div className="container">
+                    <Link href="/">Acasă</Link> / <Link href="/hub-biotech">Hub Biotehnologii</Link> / <span>Transfer Tehnologic</span>
+                </div>
+            </div>
+
+            <section className="hero-secondary">
+                <div className="container">
+                    <h1>Transfer Tehnologic</h1>
+                    <p>
+                        De la cercetare fundamentală la prototipuri și producție în standard GMP.
+                    </p>
+                </div>
+            </section>
+
+            <section className="content-section">
+                <div className="container">
+                    <p className="section-intro">
+                        Obiectivul principal este tranziția rezultatelor din cercetarea fundamentală și dezvoltare
+                        experimentală către prototipuri și ulterior către producție în standard GMP.
+                    </p>
+                    <div className="content-grid">
+                        <div className="content-card">
+                            <h3>Etape de maturizare tehnologică</h3>
+                            <ul>
+                                <li>Cercetare fundamentală și dezvoltare experimentală (TRL 4)</li>
+                                <li>Validare și realizare de prototipuri funcționale (TRL 5)</li>
+                                <li>Producție în condiții Good Manufacturing Practice (TRL 6)</li>
+                                <li>Focalizare pe soluții inovative de diagnostic și tratament</li>
+                            </ul>
+                        </div>
+                        <div className="content-card">
+                            <h3>Resurse și rezultate urmărite</h3>
+                            <ul>
+                                <li>Servicii complete de testare a unui concept (idee/prototip)</li>
+                                <li>Valorificarea dotărilor avansate și a expertizei umane OncoGen</li>
+                                <li>Creșterea șanselor de transfer către industrie și aplicații clinice</li>
+                                <li>Acces la direcții de tip patente și prototipuri</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="section-cta">
+                        <a
+                            href="https://oncogen.ro/ro/hub-biotehnologii/transfer-tehnologic/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-secondary"
+                        >
+                            Vezi detalii Transfer Tehnologic
+                        </a>
+                        <Link href="/hub-biotech" className="btn btn-primary">
+                            Înapoi la Hub Biotehnologii
+                        </Link>
+                    </div>
+                </div>
+            </section>
+        </>
+    );
+}
