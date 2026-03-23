@@ -923,6 +923,85 @@ body {
 }
 
 /* ========================================
+   HUB NAV SECTION (Large Button Cards)
+   ======================================== */
+.hub-nav-section {
+    padding: 60px 0 80px;
+    background-color: var(--light-gray);
+}
+
+.hub-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.hub-nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 50px 30px 40px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    min-height: 280px;
+    gap: 28px;
+}
+
+.hub-nav-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+}
+
+.hub-nav-card-icon {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.hub-nav-card-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hub-nav-card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--black);
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hub-nav-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hub-nav-card {
+        min-height: 220px;
+        padding: 36px 24px 30px;
+    }
+
+    .hub-nav-card-icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .hub-nav-card-title {
+        font-size: 16px;
+    }
+}
+
+/* ========================================
    CONTENT SECTION
    ======================================== */
 .content-section {
@@ -1000,6 +1079,10 @@ body {
 .section-cta {
     text-align: center;
     margin-top: 50px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* ========================================
