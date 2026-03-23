@@ -6,14 +6,14 @@ const fullTeam = [
         role: 'Coordonator OncoGen',
         details: 'Director științific și fondator al centrului',
         avatar: '👨‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Paunescu_Virgil.pdf'
     },
     {
         name: 'Prof. Dr. Panaitescu Carmen',
         role: 'Cercetător Științific I',
         details: 'Specialist în cercetare fundamentală',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Panaitescu_Carmen.pdf'
     },
     {
         name: 'Conf. Dr. Bojin Florina',
@@ -27,28 +27,28 @@ const fullTeam = [
         role: 'Cercetător Științific I',
         details: 'Specialist în biologie moleculară și genetică',
         avatar: '👨‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Tatu_Calin.pdf'
     },
     {
         name: 'Prof. Dr. Tănasie Gabriela',
         role: 'Cercetător Științific I',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Tanasie_Gabriela.pdf'
     },
     {
         name: 'Prof. Dr. Tatu Carmen',
         role: 'Cercetător Științific I',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Tatu_Carmen.pdf'
     },
     {
         name: 'S.L. Dr. Nistor Daciana',
         role: 'Cercetător Științific II',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Nistor_Daciana.pdf'
     },
     {
         name: 'As. Univ. Dr. Calma Crenguța',
@@ -69,28 +69,28 @@ const fullTeam = [
         role: 'Cercetător Științific III',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Ivan_Alexandra.pdf'
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Telea Ada',
         role: 'Biotehnolog',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Telea_Ada.pdf'
     },
     {
         name: 'C.S. Biochim. Zbîrcea Lauriana',
         role: 'Biochimist',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Zbircea_Lauriana.pdf'
     },
     {
         name: 'C.S. Biochim. Stanciu Claudia',
         role: 'Biochimist',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Stanciu_Claudia.pdf'
     },
     {
         name: 'C.S. Med.Vet. Dr. Zambori Csilla',
@@ -118,14 +118,14 @@ const fullTeam = [
         role: 'Fizician Medical',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Jucos_Gianina.pdf'
     },
     {
         name: 'As. C.S. Chim. Pricop Alexandra',
         role: 'Chimist',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Pricop_Alexandra.pdf'
     },
     {
         name: 'As. C.S. Ing. Bioteh. Simina Alina',
@@ -139,14 +139,14 @@ const fullTeam = [
         role: 'Farmacist',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Oprean_Camelia.pdf'
     },
     {
         name: 'As. C.S. Biolog Grijincu Manuela',
         role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Grijincu_Manuela.pdf'
     },
     {
         name: 'Biolog Pp. Dr. Gai Elena',
@@ -160,7 +160,7 @@ const fullTeam = [
         role: 'Medic Specialist',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Istodor_Loredana.pdf'
     },
     {
         name: 'Biol. Pp. Degan Lorena',
@@ -174,7 +174,7 @@ const fullTeam = [
         role: 'Biolog',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Tanasescu_Teodora.pdf'
     },
     {
         name: 'C.S. Dr. Biol. Pp. Anghel Simona',
@@ -195,14 +195,14 @@ const fullTeam = [
         role: 'Chimist Principal',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Lukinich_Gruia_Alexandra.pdf'
     },
     {
         name: 'Reg. Med. Pitic Carmen',
         role: 'Reglator Medical',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Pitic_Carmen.pdf'
     }
     // Add all remaining organization members here
 ];
