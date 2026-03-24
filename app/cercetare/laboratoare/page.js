@@ -30,6 +30,11 @@ export default function LaboratoarePage() {
 							<p>IMUNOLOGIE ȘI COMPATIBILITĂȚI IMUNOLOGICE</p>
 							<p>Compartiment dedicat tipizării HLA și evaluării compatibilității imunologice pentru transplant și terapii celulare.</p>
 						</Link>
+						<Link href="/cercetare/laboratoare/biobaza" className="content-card content-card-link">
+							<h3>Biobaza - Departamentul de Medicină Experimentală</h3>
+							<p>CERCETARE PRECLINICĂ</p>
+							<p>Departament dedicat studiilor preclinice și cercetării pe modele animale pentru validarea terapiilor experimentale.</p>
+						</Link>
 					</div>
 				</div>
 			</section>
