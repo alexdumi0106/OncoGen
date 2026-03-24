@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function AsociatiaPage() {
     return (
@@ -21,22 +22,15 @@ export default function AsociatiaPage() {
                 <div className="container">
                     <div className="content-card description-card">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '30px' }}>
-                            <div style={{ 
-                                width: '60px', 
-                                height: '60px', 
-                                borderRadius: '50%', 
-                                backgroundColor: 'var(--magenta)', 
-                                display: 'flex', 
-                                alignItems: 'center', 
-                                justifyContent: 'center',
-                                fontSize: '28px',
-                                flexShrink: 0
-                            }}>
-                                ❤️
-                            </div>
+                            <Image 
+                                src="/images/logo-asociatia-oncogen.jpg" 
+                                alt="Logo Asociația OncoGen" 
+                                width={200}
+                                height={80}
+                                style={{ objectFit: 'contain', flexShrink: 0 }}
+                            />
                             <div>
-                                <h2 style={{ margin: 0, color: 'var(--black)', fontSize: '24px' }}>ASOCIAȚIA ONCOGEN</h2>
-                                <p style={{ margin: '5px 0 0 0', color: 'var(--magenta)', fontWeight: '600', fontSize: '16px' }}>FII ALĂTURI DE NOI!</p>
+                                <p style={{ margin: 0, color: 'var(--magenta)', fontWeight: '600', fontSize: '16px' }}>FII ALĂTURI DE NOI!</p>
                             </div>
                         </div>
 
