@@ -323,7 +323,7 @@ export default function PublicatiiPage() {
 							<div key={year} className="pub-year-group">
 								<h3 className="pub-year">{year}</h3>
 								{groupedPublications[year].map((pub, index) => (
-									<div key={`${year}-${index}`} className="pub-item">
+									<div key={`${year}-${index}`} className="pub-item" style={{ marginBottom: '20px' }}>
 										<p>
 											<a href={pub.doi} target="_blank" rel="noopener noreferrer">
 												{index + 1}. {pub.authors} {pub.title} <em>{pub.journal}</em>
