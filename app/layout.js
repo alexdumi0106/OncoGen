@@ -59,13 +59,13 @@ export default function RootLayout({ children }) {
                             </div>
                             <div className="footer-section">
                                 <h4>Contact</h4>
-                                <p>📍 <a href="https://www.google.com/maps/search/bd.+Liviu+Rebreanu+156,+300723+Timișoara,+Romania"
+                                <p><a href="https://www.google.com/maps/search/bd.+Liviu+Rebreanu+156,+300723+Timișoara,+Romania"
                                     target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}>bd. Liviu Rebreanu, nr.
                                     156<br />300723 Timișoara, Romania</a></p>
-                                <p>📧 office@oncogen.ro</p>
+                                <p> office@oncogen.ro</p>
                             </div>
                             <div className="footer-section">
-                                <h4>Link-uri Rapide</h4>
+                                <h4>Link-uri rapide</h4>
                                 <ul>
                                     <li><Link href="/">Acasă</Link></li>
                                     <li><Link href="/despre">Despre</Link></li>

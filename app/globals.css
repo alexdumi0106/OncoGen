@@ -1216,6 +1216,114 @@ transform: translateY(-5px);
 }
 
 /* ========================================
+   HUB NAV SECTION (2x2 Box Layout)
+   ======================================== */
+.hub-nav-section {
+    padding: 42px 0 72px;
+    background-color: #e9edf3;
+}
+
+.hub-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    gap: 34px;
+}
+
+.hub-nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 320px;
+    padding: 52px 30px 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    gap: 28px;
+}
+
+.hub-nav-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+}
+
+.hub-nav-card-icon {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hub-nav-card-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hub-nav-card-title {
+    margin: 0;
+    color: #000000;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .hub-nav-card-title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hub-nav-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .hub-nav-card {
+        min-height: 280px;
+        padding: 42px 24px 30px;
+    }
+
+    .hub-nav-card-icon {
+        width: 132px;
+        height: 132px;
+    }
+
+    .hub-nav-card-title {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hub-nav-section {
+        padding: 28px 0 46px;
+    }
+
+    .hub-nav-card {
+        min-height: 230px;
+        gap: 18px;
+        padding: 32px 18px 24px;
+    }
+
+    .hub-nav-card-icon {
+        width: 106px;
+        height: 106px;
+    }
+
+    .hub-nav-card-title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
+
+/* ========================================
    CONTENT SECTION
    ======================================== */
 .content-section {
@@ -1306,6 +1414,287 @@ transform: translateY(-5px);
 .section-cta {
     text-align: center;
     margin-top: 50px;
+}
+
+.section-cta .btn {
+    margin: 6px;
+}
+
+.section-cta-transfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.section-cta-transfer .section-cta-row {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    flex-wrap: wrap;
+}
+
+.section-cta-transfer .section-cta-row-bottom {
+    margin-top: 6px;
+}
+
+.prototype-hero-image-wrap {
+    margin: 0 auto 36px;
+    max-width: 1020px;
+    background-color: #f5f5f7;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e7e7ec;
+}
+
+.prototype-hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prototype-links-section {
+    margin: 6px 0 8px;
+}
+
+.prototype-links-title {
+    margin: 0 0 24px;
+    text-align: center;
+    color: var(--magenta);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.prototype-links-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.prototype-pill-btn {
+    min-width: 200px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: var(--magenta);
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.prototype-pill-btn:hover {
+    background-color: #d82479;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(233, 30, 99, 0.3);
+}
+
+@media (max-width: 1024px) {
+    .prototype-links-title {
+        font-size: 36px;
+    }
+
+    .prototype-links-row {
+        justify-content: center;
+    }
+
+    .prototype-pill-btn {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prototype-links-title {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .prototype-pill-btn {
+        min-width: 220px;
+        font-size: 28px;
+        padding: 14px 24px;
+    }
+}
+
+.btn-back-hub {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.btn-back-hub:hover {
+    background-color: #111827;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(17, 24, 39, 0.35);
+}
+
+/* ========================================
+   PATENTS ACCORDION
+   ======================================== */
+.patents-accordion {
+    margin: 40px 0;
+}
+
+.accordion-item {
+    margin-bottom: 16px;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 18px 24px;
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--magenta);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    gap: 16px;
+}
+
+.accordion-header:hover {
+    background-color: #fafafa;
+    transform: translateX(4px);
+    box-shadow: 0 4px 16px rgba(233, 30, 99, 0.2);
+}
+
+.accordion-header.active {
+    background-color: var(--white);
+    color: var(--magenta);
+}
+
+.accordion-number {
+    flex-shrink: 0;
+    font-weight: 700;
+    min-width: 24px;
+}
+
+.accordion-title {
+    flex: 1;
+    line-height: 1.4;
+}
+
+.accordion-toggle-btn {
+    flex-shrink: 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active .accordion-toggle-btn {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    padding: 20px 24px;
+    background-color: #f9f9f9;
+    border: 1px solid #f0f0f0;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    animation: slideDown 0.3s ease;
+}
+
+.accordion-content p {
+    color: var(--dark-gray);
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.patent-detail {
+    margin-bottom: 16px;
+    color: var(--dark-gray);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.patent-detail:last-child {
+    margin-bottom: 0;
+}
+
+.patent-detail strong {
+    color: var(--black);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.patent-inventors-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.patent-inventors-list li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 6px;
+    color: var(--dark-gray);
+    font-size: 15px;
+}
+
+.patent-inventors-list li:last-child {
+    margin-bottom: 0;
+}
+
+.patent-inventors-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--magenta);
+    font-weight: bold;
+}
+
+.patent-detail a {
+    color: var(--magenta);
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.patent-detail a:hover {
+    text-decoration: underline;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        margin-top: -10px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion-header {
+        padding: 14px 16px;
+        font-size: 15px;
+        gap: 12px;
+    }
+
+    .accordion-content {
+        padding: 16px 16px;
+    }
+
+    .accordion-number {
+        min-width: 20px;
+    }
+
+    .accordion-toggle-btn {
+        font-size: 20px;
+    }
 }
 
 /* ========================================

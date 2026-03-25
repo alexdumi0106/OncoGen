@@ -44,18 +44,20 @@ export default function TransferTehnologicPage() {
                             </ul>
                         </div>
                     </div>
-                    <div className="section-cta">
-                        <a
-                            href="https://oncogen.ro/ro/hub-biotehnologii/transfer-tehnologic/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-secondary"
-                        >
-                            Vezi detalii Transfer Tehnologic
-                        </a>
-                        <Link href="/hub-biotech" className="btn btn-primary">
-                            Înapoi la Hub Biotehnologii
-                        </Link>
+                    <div className="section-cta section-cta-transfer">
+                        <div className="section-cta-row section-cta-row-top">
+                            <Link href="/hub-biotech/transfer-tehnologic/patente" className="btn btn-primary">
+                                Patente
+                            </Link>
+                            <Link href="/hub-biotech/transfer-tehnologic/prototipuri" className="btn btn-primary">
+                                Prototipuri
+                            </Link>
+                        </div>
+                        <div className="section-cta-row section-cta-row-bottom">
+                            <Link href="/hub-biotech" className="btn btn-back-hub">
+                                Înapoi la Hub Biotehnologii
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>

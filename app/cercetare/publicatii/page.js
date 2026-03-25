@@ -3,6 +3,20 @@ import Link from 'next/link';
 const publications = [
 	{
 		year: '2025',
+		title: 'Microengineered Breast Cancer Models: Shaping the Future of Personalized Oncology.',
+		journal: 'Cancers, 2025; 17: 3160',
+		doi: 'https://www.mdpi.com/2072-6694/17/19/3160',
+		authors: 'Popoiu T-A, Cimpean AM, Bojin F, Cerbu S, Gug M-C, Pirvu C-A, Pantea S, Neagu A.'
+	},
+	{
+		year: '2025',
+		title: 'Doxorubicin-Induced Cardiotoxicity and the Emerging Role of SGLT2 Inhibitors: From Glycemic Control to Cardio-Oncology.',
+		journal: 'Pharmaceuticals, 2025; 18: 681',
+		doi: 'https://www.mdpi.com/1424-8247/18/5/681',
+		authors: 'Goje ID, Goje GI, Ordodi VL, Ciobotaru VG, Ivan VS, Buzaș R, Tunea O, Bojin F, Lighezan DF.'
+	},
+	{
+		year: '2025',
 		title: 'Innovative Therapy with Stem Cell-Derived Extracellular Vesicles on Cardiac Hypertrophy in an Animal Model of Atherosclerosis; Elucidation of the Molecular Mechanisms Involved in the Repair Process.',
 		journal: 'Biomolecules, 2025; 15(10)',
 		doi: 'https://www.mdpi.com/2218-273X/15/10/1424',

@@ -28,8 +28,8 @@ export default function AsociatiaPage() {
                             <Image
                                 src="/images/logo-asociatia-oncogen.png"
                                 alt="Logo Asociația OncoGen"
-                                width={400}
-                                height={160}
+                                width={600}
+                                height={300}
                                 style={{ objectFit: 'contain', flexShrink: 0 }}
                             />
                         </div>
