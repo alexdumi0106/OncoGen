@@ -77,34 +77,6 @@ export default function DomeniiInteresPage() {
                 </div>
             </section>
 
-            {/* Știri relevante */}
-            <section className="content-section bg-light">
-                <div className="container">
-                    <h2>Știri și anunțuri</h2>
-                    <div className="patents-accordion">
-                        {stiri.map((s) => (
-                            <div key={s.id} className="accordion-item">
-                                <button
-                                    className={`accordion-header ${expandedId === s.id ? 'active' : ''}`}
-                                    onClick={() => toggleAccordion(s.id)}
-                                    aria-expanded={expandedId === s.id}
-                                >
-                                    <span className="accordion-title">{s.title}</span>
-                                    <span className="accordion-toggle-btn">
-                                        {expandedId === s.id ? '−' : '+'}
-                                    </span>
-                                </button>
-                                {expandedId === s.id && (
-                                    <div className="accordion-content">
-                                        <p>{s.content}</p>
-                                    </div>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
             <section className="content-section">
                 <div className="container">
                     <div className="section-cta">
