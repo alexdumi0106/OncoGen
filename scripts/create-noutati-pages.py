@@ -1,13 +1,15 @@
-const fs = require('fs');
-const path = require('path');
+import os
 
-const base = '/vercel/share/v0-project/app/noutati';
+base = '/vercel/share/v0-project/app/noutati'
 
-const noutatiPage = `import Link from 'next/link';
+os.makedirs(os.path.join(base, 'anunturi'), exist_ok=True)
+os.makedirs(os.path.join(base, 'articole'), exist_ok=True)
+
+noutati_page = """import Link from 'next/link';
 
 export const metadata = {
-    title: 'Noutăți | OncoGen',
-    description: 'Anunțuri și articole din activitatea Centrului OncoGen.',
+    title: 'Noutati | OncoGen',
+    description: 'Anunturi si articole din activitatea Centrului OncoGen.',
 };
 
 export default function NoutatiPage() {
@@ -15,14 +17,14 @@ export default function NoutatiPage() {
         <>
             <div className="breadcrumbs">
                 <div className="container">
-                    <Link href="/">Acasă</Link> / <span>Noutăți</span>
+                    <Link href="/">Acasa</Link> / <span>Noutati</span>
                 </div>
             </div>
 
             <section className="hero-secondary">
                 <div className="container">
-                    <h1>Noutăți</h1>
-                    <p>Anunțuri și articole din activitatea Centrului OncoGen.</p>
+                    <h1>Noutati</h1>
+                    <p>Anunturi si articole din activitatea Centrului OncoGen.</p>
                 </div>
             </section>
 
@@ -30,12 +32,12 @@ export default function NoutatiPage() {
                 <div className="container">
                     <div className="hub-grid">
                         <Link href="/noutati/anunturi" className="hub-card">
-                            <h3>Anunțuri</h3>
-                            <p>Comunicatele și anunțurile oficiale ale Centrului OncoGen.</p>
+                            <h3>Anunturi</h3>
+                            <p>Comunicatele si anunturile oficiale ale Centrului OncoGen.</p>
                         </Link>
                         <Link href="/noutati/articole" className="hub-card">
                             <h3>Articole</h3>
-                            <p>Articole și materiale publicate de echipa OncoGen.</p>
+                            <p>Articole si materiale publicate de echipa OncoGen.</p>
                         </Link>
                     </div>
                 </div>
@@ -43,13 +45,13 @@ export default function NoutatiPage() {
         </>
     );
 }
-`;
+"""
 
-const anunturiPage = `import Link from 'next/link';
+anunturi_page = """import Link from 'next/link';
 
 export const metadata = {
-    title: 'Anunțuri | OncoGen',
-    description: 'Comunicatele și anunțurile oficiale ale Centrului OncoGen.',
+    title: 'Anunturi | OncoGen',
+    description: 'Comunicatele si anunturile oficiale ale Centrului OncoGen.',
 };
 
 export default function AnunturiPage() {
@@ -57,27 +59,27 @@ export default function AnunturiPage() {
         <>
             <div className="breadcrumbs">
                 <div className="container">
-                    <Link href="/">Acasă</Link> /{' '}
-                    <Link href="/noutati">Noutăți</Link> / <span>Anunțuri</span>
+                    <Link href="/">Acasa</Link> /{' '}
+                    <Link href="/noutati">Noutati</Link> / <span>Anunturi</span>
                 </div>
             </div>
 
             <section className="hero-secondary">
                 <div className="container">
-                    <h1>Anunțuri</h1>
-                    <p>Comunicatele și anunțurile oficiale ale Centrului OncoGen.</p>
+                    <h1>Anunturi</h1>
+                    <p>Comunicatele si anunturile oficiale ale Centrului OncoGen.</p>
                 </div>
             </section>
 
             <section className="content-section">
                 <div className="container">
                     <p className="section-intro">
-                        Această pagină va conține anunțurile și comunicatele oficiale ale
-                        Centrului de Terapii Genice și Celulare OncoGen.
+                        Aceasta pagina va contine anunturile si comunicatele oficiale ale
+                        Centrului de Terapii Genice si Celulare OncoGen.
                     </p>
                     <div className="section-cta">
                         <Link href="/noutati" className="btn btn-primary">
-                            Înapoi la Noutăți
+                            Inapoi la Noutati
                         </Link>
                     </div>
                 </div>
@@ -85,13 +87,13 @@ export default function AnunturiPage() {
         </>
     );
 }
-`;
+"""
 
-const articolePage = `import Link from 'next/link';
+articole_page = """import Link from 'next/link';
 
 export const metadata = {
     title: 'Articole | OncoGen',
-    description: 'Articole și materiale publicate de echipa OncoGen.',
+    description: 'Articole si materiale publicate de echipa OncoGen.',
 };
 
 export default function ArticolePage() {
@@ -99,27 +101,27 @@ export default function ArticolePage() {
         <>
             <div className="breadcrumbs">
                 <div className="container">
-                    <Link href="/">Acasă</Link> /{' '}
-                    <Link href="/noutati">Noutăți</Link> / <span>Articole</span>
+                    <Link href="/">Acasa</Link> /{' '}
+                    <Link href="/noutati">Noutati</Link> / <span>Articole</span>
                 </div>
             </div>
 
             <section className="hero-secondary">
                 <div className="container">
                     <h1>Articole</h1>
-                    <p>Articole și materiale publicate de echipa OncoGen.</p>
+                    <p>Articole si materiale publicate de echipa OncoGen.</p>
                 </div>
             </section>
 
             <section className="content-section">
                 <div className="container">
                     <p className="section-intro">
-                        Această pagină va conține articolele și materialele publicate de
-                        cercetătorii și specialiștii Centrului OncoGen.
+                        Aceasta pagina va contine articolele si materialele publicate de
+                        cercetatorii si specialistii Centrului OncoGen.
                     </p>
                     <div className="section-cta">
                         <Link href="/noutati" className="btn btn-primary">
-                            Înapoi la Noutăți
+                            Inapoi la Noutati
                         </Link>
                     </div>
                 </div>
@@ -127,13 +129,18 @@ export default function ArticolePage() {
         </>
     );
 }
-`;
+"""
 
-fs.mkdirSync(path.join(base, 'anunturi'), { recursive: true });
-fs.mkdirSync(path.join(base, 'articole'), { recursive: true });
+with open(os.path.join(base, 'page.js'), 'w', encoding='utf-8') as f:
+    f.write(noutati_page)
 
-fs.writeFileSync(path.join(base, 'page.js'), noutatiPage, 'utf8');
-fs.writeFileSync(path.join(base, 'anunturi', 'page.js'), anunturiPage, 'utf8');
-fs.writeFileSync(path.join(base, 'articole', 'page.js'), articolePage, 'utf8');
+with open(os.path.join(base, 'anunturi', 'page.js'), 'w', encoding='utf-8') as f:
+    f.write(anunturi_page)
 
-console.log('Noutati pages created successfully.');
+with open(os.path.join(base, 'articole', 'page.js'), 'w', encoding='utf-8') as f:
+    f.write(articole_page)
+
+print("All 3 noutati pages created successfully.")
+print(f"  - {base}/page.js")
+print(f"  - {base}/anunturi/page.js")
+print(f"  - {base}/articole/page.js")
