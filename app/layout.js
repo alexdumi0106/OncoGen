@@ -1,6 +1,7 @@
 import '../app/globals.css';
 import Link from 'next/link';
 import NavCercetareDropdown from './components/NavCercetareDropdown';
+import NavNoutatiDropdown from './components/NavNoutatiDropdown';
 
 export const metadata = {
     title: 'OncoGen',
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
                                     <li><Link href="/proiecte">Proiecte</Link></li>
                                     <NavCercetareDropdown />
                                     <li><Link href="/hub-biotech">Hub Biotehnologii</Link></li>
+                                    <NavNoutatiDropdown />
                                     <li><Link href="/contact">Contact</Link></li>
                                 </ul>
                             </nav>
