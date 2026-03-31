@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function DesprePage() {
     return (
@@ -99,25 +100,53 @@ export default function DesprePage() {
                     </p>
                     <div className="team-grid">
                         <div className="team-card">
-                            <div className="team-avatar">👨‍🔬</div>
+                            <div className="team-avatar">
+                                <Image 
+                                    src="/images/profile-avatar.svg" 
+                                    alt="Prof. Dr. Virgil Păunescu"
+                                    width={100}
+                                    height={100}
+                                />
+                            </div>
                             <h3>Prof. Dr. Virgil Păunescu</h3>
                             <p><strong>Coordonator OncoGen</strong></p>
                             <p>Director științific și fondator al centrului</p>
                         </div>
                         <div className="team-card">
-                            <div className="team-avatar">👩‍🔬</div>
+                            <div className="team-avatar">
+                                <Image 
+                                    src="/images/profile-avatar.svg" 
+                                    alt="Prof. Dr. Carmen Panaitescu"
+                                    width={100}
+                                    height={100}
+                                />
+                            </div>
                             <h3>Prof. Dr. Carmen Panaitescu</h3>
                             <p><strong>Cercetător Științific I</strong></p>
                             <p>Specialist în cercetare fundamentală</p>
                         </div>
                         <div className="team-card">
-                            <div className="team-avatar">👩‍🔬</div>
+                            <div className="team-avatar">
+                                <Image 
+                                    src="/images/profile-avatar.svg" 
+                                    alt="Conf. Dr. Florina Bojin"
+                                    width={100}
+                                    height={100}
+                                />
+                            </div>
                             <h3>Conf. Dr. Florina Bojin</h3>
                             <p><strong>Cercetător Științific I</strong></p>
                             <p>Specialist în biologie celulară și imunoterapii</p>
                         </div>
                         <div className="team-card">
-                            <div className="team-avatar">👨‍🔬</div>
+                            <div className="team-avatar">
+                                <Image 
+                                    src="/images/profile-avatar.svg" 
+                                    alt="Conf. Dr. Călin Țațu"
+                                    width={100}
+                                    height={100}
+                                />
+                            </div>
                             <h3>Conf. Dr. Călin Țațu</h3>
                             <p><strong>Cercetător Științific I</strong></p>
                             <p>Specialist în biologie moleculară și genetică</p>
@@ -168,27 +197,27 @@ export default function DesprePage() {
                     <h2>Infrastructură &amp; Facilități</h2>
                     <div className="infrastructure-grid">
                         <div className="infra-card">
-                            <h3>🏭 Producție GMP</h3>
+                            <h3>Producție GMP</h3>
                             <p>Certificare EMA pentru producția de biomolecule și vectori terapeutici conform standardelor internaționale.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>🧬 Laborator BSL-2 </h3>
+                            <h3>Laborator BSL-2 </h3>
                             <p>Laborator de biosiguranță nivel 2 pentru lucrul cu agenți patogeni și materiale biologice.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>🔬 Echipamente Avansate</h3>
+                            <h3>Echipamente Avansate</h3>
                             <p>Secvențializator ADN, citometru de flux, microscoape confocale, PCR în timp real și altele.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>💻 Bioinformatică</h3>
+                            <h3>Bioinformatică</h3>
                             <p>Platforme de analiză genomică și biostatistică cu acces la baze de date globale.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>📊 15+ Laboratoare</h3>
+                            <h3>15+ Laboratoare</h3>
                             <p>Departamente dedicate pentru imunoterapii, terapii genice și cercetare fundamentală.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>🌐 Rețea Globală</h3>
+                            <h3>Rețea Globală</h3>
                             <p>Parteneriate cu universități și institute de cercetare din Europa și SUA.</p>
                         </div>
                     </div>
